@@ -7,4 +7,9 @@ describe('Bob', function() {
     result = bob.hey('Tom-ayy-to, tom-aaayyy-to.')
     expect(result).toEqual('Whatever.')
   })
+  it('', function() {
+    result = bob.hey('GET OVER HERE!')
+    expect(result).toEqual('NEVER!')
+  })
+
 })

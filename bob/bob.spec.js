@@ -12,7 +12,8 @@ describe('Bob', function() {
     expect(result).toEqual('NEVER!')
   })
   it('', function() {
-    
+    result = bob.hey()
+
   })
 
 })

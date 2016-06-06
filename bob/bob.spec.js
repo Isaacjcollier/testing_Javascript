@@ -4,16 +4,17 @@ describe('Bob', function() {
   var bob = new Bob()
 
   it('stating something', function() {
-    result = bob.hey('Tom-ayy-to, tom-aaayyy-to.')
+    var result = bob.hey('Tom-ayy-to, tom-aaayyy-to.')
     expect(result).toEqual('Whatever.')
   })
-  it('', function() {
-    result = bob.hey('GET OVER HERE!')
-    expect(result).toEqual('NEVER!')
-  })
-  it('', function() {
-    result = bob.hey()
+  
+  it('shouting', function() {
+  var result = bob.hey('WATCH OUT!');
+  expect(result).toEqual('Whoa, chill out!');
+});
 
-  })
-
+it('asking a question', function() {
+  var result = bob.hey('Does this cryogenic chamber make me look fat?');
+  expect(result).toEqual('Sure.');
+})
 })
